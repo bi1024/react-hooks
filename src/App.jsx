@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 import ExUseContext from './useContext/ExUseContext'
 import ExUseRef from './useRef/ExUseRef'
+import ExUseEffect from './useEffect/ExUseEffect'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <ExUseContext></ExUseContext>
       <ExUseRef></ExUseRef>
+      <ExUseEffect></ExUseEffect>
     </>
   )
 }
