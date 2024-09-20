@@ -30,7 +30,7 @@ const ExUseEffect = () => {
         };
     }, []);
 
-    useListenToResize(setWindowWidth2);
+    // useListenToResize(setWindowWidth2);
 
     return (<>
         <h1>useEffect (listening to mouse move)</h1>
